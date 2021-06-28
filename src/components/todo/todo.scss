@@ -91,9 +91,20 @@ body, html {
         }
     }
 
-    h2 {
-        margin: auto;
-        background-color: black;
-    }
+
+}
+
+h2 {
+    margin: auto;
+    background-color: rgb(39, 157, 151);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    width:50%
+}
+#deletebutton{
+
+    margin-right: 5px;
+    margin-left: 5px;
 
 }

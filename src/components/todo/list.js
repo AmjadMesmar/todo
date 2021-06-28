@@ -24,11 +24,11 @@ function TodoList(props) {
              Assignee: {item.assignee}<br></br>
              Difficulty: {item.difficulty}
             </span>
-            <button onClick={() =>  props.handleDelete(item._id)}>X</button>
+            <Button id="deletebutton" variant="danger" className="btn-sm"  onClick={() =>  props.handleDelete(item._id)}>X</Button>
             <form onSubmit={(e)=>handler(e,item._id)}>
             <Button type='button' onClick={() =>setFlag(!flag)}>Edit</Button>
             <If condition={!flag}>
-              <Button type='submit'>
+              <Button variant="success" type='submit'>
               submit
               </Button>
             <textarea id={item._id} required></textarea>

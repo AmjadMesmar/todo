@@ -2,7 +2,7 @@
 
 ## About
 
-A simple to do list web application that allows the user to create to do notes, edit and delete them.
+A simple to do list web application that allows the user to create to do notes, edit and delete them, it uses custom hooks and axios to get get REST methods and api requests.
 
 ## Links
 
@@ -12,4 +12,4 @@ A simple to do list web application that allows the user to create to do notes, 
 
 ## UML Diagram
 
-![Uml](./todo-uml.jpg)
+![Uml](./todo-connected-uml.jpg)
