@@ -11,6 +11,8 @@ function ToDo(){
     item._id = Math.random();
     item.complete = false;
     setList([...list, item])
+    console.log("🚀 ~ file: todo.js ~ line 9 ~ ToDo ~ useState", useState)
+
   };
 
   let toggleComplete = id => {
