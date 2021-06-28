@@ -1,0 +1,22 @@
+header{
+    background-color: gray;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+    // margin-top: -22px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+nav ul  {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  top: -10px;
+}
+
+nav ul  li {
+margin: 5px;
+}
