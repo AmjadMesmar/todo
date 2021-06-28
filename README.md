@@ -11,7 +11,7 @@ A simple to do list web application that allows the user to create to do notes, 
 ## Links
 
 [Repository](https://github.com/AmjadMesmar/todo)
-[Pull Request](https://github.com/AmjadMesmar/todo/pull/6)
+[Pull Request](https://github.com/AmjadMesmar/todo/pull/7)
 [Deployed App](https://souls-todo.netlify.app/)
 
 ## UML Diagram
