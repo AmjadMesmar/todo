@@ -12,7 +12,7 @@ class TodoForm extends React.Component {
     this.setState({ item: {...this.state.item, [e.target.name]: e.target.value } });
   };
 
-  handleSubmit = (e) => {
+  submitHandler = (e) => {
     e.preventDefault();
     e.target.reset();
     this.props.handleSubmit(this.state.item);
@@ -24,7 +24,7 @@ class TodoForm extends React.Component {
     return (
       <>
         <h3>Add Item</h3>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.submitHandler}>
           <label>
             <span>To Do Item</span>
             <input

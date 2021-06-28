@@ -1,5 +1,5 @@
 { "homepage": "./",
-  "name": "my-app",
+  "name": "souls-todo",
   "version": "0.1.0",
   "engines": {
     "node": "16.x"
