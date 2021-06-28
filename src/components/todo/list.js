@@ -13,7 +13,6 @@ function TodoList(props) {
   return (
 
       <ul>
-        {console.log(document.getElementById(1))}
         {props.list? props.list.map(item => (
           <li
          
@@ -27,16 +26,11 @@ function TodoList(props) {
             </span>
             <button onClick={() =>  props.handleDelete(item._id)}>X</button>
             <form onSubmit={(e)=>handler(e,item._id)}>
-            {/* <button type='button' onClick={() => setFlag(!flag)}>Edit</button> */}
             <Button type='button' onClick={() =>setFlag(!flag)}>Edit</Button>
-            {/* {setFlag(['a'])} */}
-            {/* {console.log(flag)} */}
             <If condition={!flag}>
               <Button type='submit'>
               submit
               </Button>
-            {/* <button type='submit'>submit</button> */}
-            {/* <input id={item._id}></input> */}
             <textarea id={item._id} required></textarea>
             </If>
             </form>
