@@ -20,6 +20,7 @@ function TodoList(props) {
             className={`complete-${item.complete.toString()}`}
           >
             <span onClick={() => props.handleComplete(item._id)}>
+              <br/>
               Name: {item.text} <br></br>
              Assignee: {item.assignee}<br></br>
              Difficulty: {item.difficulty}
