@@ -1,0 +1,29 @@
+.renderPageNumber{
+    list-style:none; 
+    display:flex;
+}
+
+.renderPageNumber li {
+    padding: 10px;
+    border: 1px solid white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.renderPageNumber li.active {
+    background-color:blue ;
+    columns: white;
+}
+
+.renderPageNumber li button {
+    background-color: transparent ;
+    border :none ;
+    color: black ;
+    font-size : 1.5rem;
+    cursor: pointer;
+}
+
+.renderPageNumber li button:hover {
+    background-color:black;
+    color: white ;
+}

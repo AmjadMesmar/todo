@@ -1,7 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState, useContext } from "react";
 import TodoForm from "./form.js";
 import TodoList from "./list.js";
 import useAjax from "../hooks/useajax";
+import ToDoPagination  from '../pagination'
 import  {CompletedTasks}  from '../contexts/tasks-context.provider';
 import CompletedSettings from '../contexts/tasks-context'
 
@@ -52,7 +54,7 @@ const ToDo = () => {
 
     requestHandler(todoAPI, "get")
     .then((results) => {
-      setList( context.data );
+      setList( context.currentItem );
 
     })
 
@@ -123,6 +125,7 @@ const ToDo = () => {
           />
         </div>
       </section>
+        <ToDoPagination/>
     </>
     
   );
